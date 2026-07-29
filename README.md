@@ -152,10 +152,10 @@ AI-Agent-Pipeline-Optimization
 
 ## Future Improvements
 
-Replace keyword retrieval with vector database search (FAISS/ChromaDB)
-Add LLM-based summarization
-Implement monitoring dashboard
-Add staging deployment automation
+- Replace keyword retrieval with vector database search (FAISS/ChromaDB)
+- Add LLM-based summarization
+- Implement monitoring dashboard
+- Add staging deployment automation
 
 
 ## Author
