@@ -15,19 +15,7 @@ The assignment focuses on:
 
 The pipeline consists of multiple agents:
 
-User Query + Document
-|
-↓
-Reader Agent
-|
-↓
-Retrieval Agent
-|
-↓
-Compression Agent
-|
-↓
-Response Validation
+User Query + Document -> Reader Agent -> Retrieval Agent -> Compression Agent -> Response Validation
 
 ### Agents
 
@@ -111,10 +99,10 @@ GitHub Actions workflow automatically performs:
 
 ## Commands executed:
 
-pytest
-flake8 app
-Testing
+- pytest
+- flake8 app
 
+# Testing
 ## Run tests:
 
 python -m pytest
